@@ -35,6 +35,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     + NAME + " " + "TEXT,"
                     + SURNAME + " " + "TEXT" + ");";
 
+    // CREATE TABLE STUDENTS(ID INTEGER PRIMARY KEY AUTOINCREMENT, INDEX TEXT NOT NULL, NAME TEXT, SURNAME TEXT);
+
     //    This takes the Context (e.g., an Activity)
     public DatabaseHelper(@Nullable Context context) {
 //        When the application runs the first time – At this point, we do not yet have a database.

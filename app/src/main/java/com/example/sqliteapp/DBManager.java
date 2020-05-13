@@ -63,7 +63,7 @@ public class DBManager {
 
         // How you want the results sorted in the resulting Cursor
         String sortOrder =
-                databaseHelper.INDEX + " DESC";
+                DatabaseHelper.INDEX + " DESC"; //ASC
 
         Cursor cursor = database.query(
                 DatabaseHelper.TABLE_NAME,      // The table to query

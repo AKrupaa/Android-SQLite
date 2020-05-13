@@ -52,6 +52,7 @@ public class AddActivity extends AppCompatActivity {
 
                 DBManager database = new DBManager(getApplicationContext());
                 database.open();
+
                 database.insert(index.getText().toString(), name.getText().toString(), surname.getText().toString());
 
                 database.close();
